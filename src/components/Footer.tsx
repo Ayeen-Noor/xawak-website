@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Discord, Twitter, Send } from 'lucide-react';
+import { MessageSquare, Twitter, Send } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
                 className="text-white hover:text-space-gold transition-all duration-300 hover:scale-125"
                 aria-label="Discord"
               >
-                <Discord size={24} />
+                <MessageSquare size={24} />
               </a>
               <a 
                 href="#" 
