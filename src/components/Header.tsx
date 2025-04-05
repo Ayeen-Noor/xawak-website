@@ -18,10 +18,6 @@ const Header = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'py-3 bg-black/90 backdrop-blur-md' : 'py-6'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <div className="flex items-center">
-          <h1 className="text-space-gold font-orbitron font-bold text-2xl md:text-3xl">XAWAK</h1>
-        </div>
-        
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#about" className="text-white hover:text-space-gold transition-colors">About</a>

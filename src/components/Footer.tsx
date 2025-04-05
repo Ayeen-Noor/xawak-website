@@ -8,7 +8,6 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
           <div className="text-center md:text-left max-w-sm">
-            <h2 className="text-space-gold font-orbitron font-bold text-2xl mb-4">XAWAK</h2>
             <p className="text-gray-300 mb-6">
               Transcending the boundaries of blockchain technology to bring you the future of decentralized finance.
             </p>
